@@ -40,7 +40,10 @@ namespace BagageHåndtering
                         for (int i = 0; i < 4; i++)
                         {
                             string type = ran.Next(2) == 0 ? "Trunk" : "BackPack";
+                            // Checks in the luggage
                             LuggageFromCheckIn.Enqueue(new LuggageModel(_checkinNumber, type));
+                            // Displays the luggage that has been checked in
+                            Console.WriteLine($"Luggage checked in {_checkinNumber}: {type}");
                         }
 
                         Monitor.PulseAll(LuggageFromCheckIn);

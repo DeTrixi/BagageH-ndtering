@@ -11,6 +11,7 @@
       <e p="BagageHåndtering" t="IncludeRecursive">
         <e p="BagageHåndtering.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Distributor.cs" t="Include" />
         <e p="Gate.cs" t="Include" />
         <e p="LuggageModel.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">

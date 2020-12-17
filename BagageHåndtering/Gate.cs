@@ -4,8 +4,11 @@ using System.Threading;
 
 namespace BagageHåndtering
 {
+    /// <summary>
+    /// This class is simulating a gate in the airport
+    /// </summary>
     public class Gate
-    {
+    {   // This Queue contains the luggage from
         private readonly Queue<LuggageModel> _luggageModels;
         public int GateId { get; private set; }
 
@@ -26,7 +29,9 @@ namespace BagageHåndtering
                     while (_luggageModels.Count <= 0) Monitor.Wait(_luggageModels);
                     {
                         Console.WriteLine(
-                            $"Moving luggage from gate: {GateId} to the plain {_luggageModels.Dequeue()}");
+                            $"Moving luggage from gate: {GateId} to the plain {_luggageModels.Peek().Id}, {_luggageModels.Peek().Type}");
+                        _luggageModels.Dequeue();
+                        Thread.Sleep(2000);
                     }
                     Monitor.PulseAll(_luggageModels);
                 }
