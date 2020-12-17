@@ -25,7 +25,7 @@ namespace BagageHåndtering
 
 
             // This loop Creates the wished amount of gates and Check in
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 3; i++)
             {
                 // Creates a service desk for each loop
                 checkins.Add(new(i + 1));

@@ -49,8 +49,7 @@ namespace BagageHåndtering
                     {
                         //Console.WriteLine($"{_luggageFromCheckIn.Peek().Id - 1} , {_luggageFromCheckIn.Peek().Type}");
                         // Sorts the list ino tree or more lists looking at the id in the luggage and adding them to the array below
-                        _luggageAtTheGatesTemp[_luggageFromCheckIn.Peek().Id - 1]
-                            .Enqueue(_luggageFromCheckIn.Dequeue());
+                        _luggageAtTheGatesTemp[_luggageFromCheckIn.Peek().Id - 1].Enqueue(_luggageFromCheckIn.Dequeue());
 
                         Thread.Sleep(500);
                     }

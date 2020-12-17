@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65b4fe6b-7d4d-40b6-bf0a-9d387933e108" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BagageHåndtering/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BagageHåndtering/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BagageHåndtering/Gate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BagageHåndtering/Gate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BagageHåndtering/Program.CheckIn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BagageHåndtering/Program.CheckIn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BagageHåndtering/Distributor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BagageHåndtering/Distributor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BagageHåndtering/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BagageHåndtering/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +26,7 @@
       <option value="$PROJECT_DIR$/BagageHåndtering/Gate.cs" />
       <option value="$PROJECT_DIR$/BagageHåndtering/Program.CheckIn.cs" />
       <option value="$PROJECT_DIR$/BagageHåndtering/Program.cs" />
+      <option value="$PROJECT_DIR$/BagageHåndtering/Distributor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ljog8VQRpSJCV4g7i8GCm1vhZk" />
@@ -77,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608119969339</updated>
       <workItem from="1608119975614" duration="11170000" />
-      <workItem from="1608186051110" duration="8035000" />
+      <workItem from="1608186051110" duration="10109000" />
     </task>
     <servers />
   </component>
@@ -100,24 +100,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BagageHåndtering/Program.cs</url>
-          <line>114</line>
-          <properties documentPath="C:\Users\flemm\RiderProjects\BagageHåndtering\BagageHåndtering\Program.cs" initialLine="107" containingFunctionPresentation="method 'StartDistributor'">
-            <startOffsets>
-              <option value="4519" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4520" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
